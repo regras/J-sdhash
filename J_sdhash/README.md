@@ -46,9 +46,9 @@
 	4. Done!
 	
 	5. Testing the installation process.
-		--> To verify if the installation process was performed successfully, use the following commands to create a digest of a test file and compare it to the expected one, using diff command. Both, the file and expected digest, are provided along with JC-sdhash source code, named 'test_file.bin' and 'expected_output.sdbf', respectively. The result of diff should be nothing, which means that both outputs are identical.
+		--> To verify if the installation process was performed successfully, use the following commands to create a digest of a test file and compare it to the expected one, using diff command. Both, the file and expected digest, are provided along with J-sdhash source code, named 'test_file.bin' and 'expected_output.sdbf', respectively. The result of diff should be nothing, which means that both outputs are identical.
 		--> command:
-			$ JC-sdhash test_file.bin > output.sdbf
+			$ J-sdhash test_file.bin > output.sdbf
 			$ diff output.sdbf expected_output.sdbf
 
 ------
