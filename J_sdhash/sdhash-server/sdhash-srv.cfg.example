@@ -1,5 +1,0 @@
-#
-# Hardware threads to use for hashing
-# 
-threads = 8 
-homedir=/home/serverhome
